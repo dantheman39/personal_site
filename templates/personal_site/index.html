@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block mainContent %}
+
+	<article>
+
+		<div class="tab">
+			<button class="tabLinks" data-tabid="programming">{% trans "Programming" %}</button>
+			<button class="tabLinks" data-tabid="music">{% trans "Music" %}</button>
+			<button class="tabLinks" data-tabid="linguistics">{% trans "Linguistics" %}</button>
+		</div>
+
+		<div id="programming" class="tabContent">
+			<p>{% blocktrans %}Hi! It seems I've invited you to the party early. This site will be more presentable by the end of the week. Check out <a href="https://github.com/dantheman39" target="_blank">my github page</a> for a similar view of sparseness. I have been programming a lot over the past 5 years or so, but use a private git server so it's going to take time to make my code more presentable.{% endblocktrans %}</p>
+
+			<p>{% blocktrans %}Even though this site is not yet much to look at, I'm happy that it's all set up for i18n internationalization and and for unit testing, two areas I wanted to know more about, so there's that!{% endblocktrans %}</p>
+
+		</div>
+
+		<div id="music" class="tabContent">
+			<p>Music</p>
+			<p>{% lorem %}</p>
+		</div>
+
+		<div id="linguistics" class="tabContent">
+			<p>Linguistics</p>
+			<p>{% lorem %}</p>
+		</div>
+	</article>
+
+{% endblock mainContent %}
+
+{% block bodyScripts %}
+	<script type="text/javascript" src="{% static 'personal_site/set_lang.js' %}"></script>
+	<script type="text/javascript" src="{% static 'personal_site/tabs.js' %}"></script>
+{% endblock bodyScripts %}

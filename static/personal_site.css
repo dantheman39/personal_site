@@ -1,0 +1,52 @@
+* {
+
+	margin: 0;
+	font-family: Dosis;
+
+}
+
+article {
+	max-width: 600px;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 30px;
+}
+
+article p {
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+}
+
+.tab {
+    overflow: hidden;
+    /*border: 1px solid #ccc;
+    background-color: #f1f1f1;
+	*/
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+	border-bottom: 5px solid #e6e6e6;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab button:hover {
+    background-color: #e6e6e6;
+}
+
+.tab button.active {
+	/*background-color: #e6e6e6;*/
+	border-bottom: 5px solid #0099ff;
+}
+
+.tabContent {
+    display: none;
+    padding: 6px 12px;
+    /*border: 1px solid #ccc;
+    border-top: none;*/
+}

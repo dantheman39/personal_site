@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+{% load static %}
+{% load i18n %}
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	{% block headStatic %}
+		<link rel="stylesheet" type="text/css" href="{% static "headerChunk.css" %}" />
+		<link rel="stylesheet" type="text/css" href="{% static "personal_site.css" %}" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis" />
+	{% endblock headStatic %}
+</head>
+
+<body>
+
+<div id="headline">
+
+	<h1 id="headerH1">Daniel Riggs</h1>
+
+	{% block changeLangBlock %}
+	<div id="chooseLangDiv">
+	<form id="chooseLangForm" action="{% url 'set_language' %}" method="post">{% csrf_token %}
+
+		{% get_available_languages as LANGUAGES %}
+		{% get_current_language as LANGUAGE_CODE %}
+		{% get_language_info_list for LANGUAGES as languages %}
+
+		{% for lang in languages %}
+			{% language lang.code %}
+				<a href="{% url "home" %}" class="languageChoice" data-langcode="{{ lang.code }}">{{ lang.name_local|lower }}</a>
+			{% endlanguage %}
+		{% endfor %}
+
+		<input name="language" type="hidden"></input> 
+		<input name="next" type="hidden"></input>
+	</form>
+	</div>
+	{% endblock %}
+
+</div>
+
+
+
+{% block mainContent %}
+
+{% endblock mainContent %}
+
+{% block bodyScripts %}
+	<script type="text/javascript" src="{% static 'personal_site/set_lang.js' %}"></script>
+{% endblock bodyScripts %}
+</body>
+
+</html>

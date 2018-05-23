@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-23 21:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/personal_site/index.html:10
+msgid "Programming"
+msgstr "Programación"
+
+#: templates/personal_site/index.html:11
+msgid "Music"
+msgstr "Música"
+
+#: templates/personal_site/index.html:12
+msgid "Linguistics"
+msgstr "Lingüística"
+
+#: templates/personal_site/index.html:16
+msgid ""
+"Hi! It seems I've invited you to the party early. This site will be more "
+"presentable by the end of the week. Check out <a href=\"https://github.com/"
+"dantheman39\" target=\"_blank\">my github page</a> for a similar view of "
+"sparseness. I have been programming a lot over the past 5 years or so, but "
+"use a private git server so it's going to take time to make my code more "
+"presentable."
+msgstr ""
+"Hola! Parece que te invité un poco temprano a la fiesta ... Este sitio "
+"estará en un estado más presentable para el final de esta semana. Échale un "
+"vistazo a <a href=\"https://github.com/dantheman39\" target=\"_blank\">mi "
+"página de GitHub </a> mientras tanto, aunque tampoco encontrarás una página "
+"bien repleta. Durante los últimos cinco años he programado harto, pero usaba "
+"un servidor propio para git voy a tardar un poquito en poner todo más bonito "
+"antes de publicarlo."
+
+#: templates/personal_site/index.html:18
+msgid ""
+"Even though this site is not yet much to look at, I'm happy that it's all "
+"set up for i18n internationalization and and for unit testing, two areas I "
+"wanted to know more about, so there's that!"
+msgstr ""
+"Aunque este sitio hasta la fecha no tiene nada súper interesante, estoy "
+"contento que haya podido incluir internacionalización y unit testing, dos "
+"temas que quería incluir en mis programas de aquí en adelante. Entonces hay "
+"por lo menos eso!"
+
+#~ msgid "English"
+#~ msgstr "Inglés"
+
+#~ msgid "Portuguese"
+#~ msgstr "Portugués"
+
+#~ msgid "Spanish"
+#~ msgstr "Español"
+
+#~ msgid "Catalan"
+#~ msgstr "Catalán"
+
+#~ msgid "Buh!"
+#~ msgstr "Bu!"
+
+#~ msgid "Testing i18n internationalization"
+#~ msgstr "Probando el sistema de internacionalización"
