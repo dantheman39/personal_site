@@ -33,6 +33,7 @@ article p {
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
+	font-weight: bold;
 }
 
 .tab button:hover {
@@ -49,4 +50,31 @@ article p {
     padding: 6px 12px;
     /*border: 1px solid #ccc;
     border-top: none;*/
+}
+
+a {
+	color: #0099ff;
+}
+
+h3 {
+	display: inline-block;
+	border-bottom: 5px solid #e6e6e6;
+	padding: 14px 16px 14px 5px;
+	font-size: 12pt;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+ul {
+	list-style-type: none;
+	text-indent: -1em;
+	padding-left: 2em;
+}
+
+.indent1 {
+	margin: 0px 10px 10px 1em;
+}
+.indent1 + ul {
+	margin-left: 1em;
+	margin-bottom: 10px;
 }
