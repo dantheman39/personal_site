@@ -1,8 +1,17 @@
 * {
 
 	margin: 0;
-	font-family: Dosis;
+	font-family: "Titillium Web";
+}
 
+
+h1, h2, h3, h4, button {
+	font-family: Dosis;
+}
+
+
+body {
+	padding-bottom: 50px;
 }
 
 article {
@@ -19,9 +28,6 @@ article p {
 
 .tab {
     overflow: hidden;
-    /*border: 1px solid #ccc;
-    background-color: #f1f1f1;
-	*/
 }
 
 .tab button {
@@ -29,11 +35,11 @@ article p {
     float: left;
     border: none;
 	border-bottom: 5px solid #e6e6e6;
-    outline: none;
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
 	font-weight: bold;
+	font-size: 12pt;
 }
 
 .tab button:hover {
@@ -41,7 +47,6 @@ article p {
 }
 
 .tab button.active {
-	/*background-color: #e6e6e6;*/
 	border-bottom: 5px solid #0099ff;
 }
 
