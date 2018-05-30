@@ -19,10 +19,10 @@ var TABS = (function() {
 		var c = null;
 		for (i = 0; i < numCookies; i++) {
 			c = cookieArray[i];
-			while (c.charAt(0) == ' ') {
+			while (c.charAt(0) === ' ') {
 				c = c.substring(1);
 			}
-			if (c.indexOf(name) == 0) {
+			if (c.indexOf(name) === 0) {
 				return c.substring(name.length, c.length);
 			}
 			
@@ -60,7 +60,7 @@ var TABS = (function() {
 		document.getElementById(tabToShow).style.display = "block";
 		e.currentTarget.className += " active";
 
-		_setCookie(_tabCookieName, tabToShow,1)
+		_setCookie(_tabCookieName, tabToShow,1);
 	
 	};
 

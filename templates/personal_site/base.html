@@ -21,42 +21,55 @@
 
 	<h1 id="headerH1"><a href="{% url "home" %}">Daniel Riggs</a></h1>
 
-	<div id="contact" class="rightBlock2">
-		<a href="{% url "contact" %}">Contact</a>
+	<div id="menuButton">
+
+		<img id= "menuImage" src="{% static "threeBarMenuButton-White.svg" %}">
+
 	</div>
 
-	{% block changeLangBlock %}
-	<div id="chooseLangDiv">
-	<form id="chooseLangForm" action="{% url 'set_language' %}" method="post" class="rightBlock">{% csrf_token %}
+	<div id="navDiv">
+		<nav>
+			<a href="{% url "home" %}">{% trans "home" %}</a>
+			<a href="{% url "contact" %}">{% trans "contact" %}</a>
 
-		{% get_available_languages as LANGUAGES %}
-		{% get_current_language as LANGUAGE_CODE %}
-		{% get_language_info_list for LANGUAGES as languages %}
+			{% block changeLangBlock %}
+			<form id="chooseLangForm" action="{% url 'set_language' %}" method="post" class="rightBlock">{% csrf_token %}
 
-		{% for lang in languages %}
-			{% language lang.code %}
-				<a href="{% url "home" %}" class="languageChoice" data-langcode="{{ lang.code }}">{{ lang.name_local|lower }}</a>
-			{% endlanguage %}
-		{% endfor %}
+				<hr>
 
-		<input name="language" type="hidden"></input> 
-		<input name="next" type="hidden"></input>
-	</form>
+				{% get_available_languages as LANGUAGES %}
+				{% get_current_language as LANGUAGE_CODE %}
+				{% get_language_info_list for LANGUAGES as languages %}
+
+				{% for lang in languages %}
+					{% language lang.code %}
+						<a href="{% url "home" %}" class="languageChoice" data-langcode="{{ lang.code }}">{{ lang.name_local|lower }}</a>
+					{% endlanguage %}
+				{% endfor %}
+
+				<input name="language" type="hidden"></input> 
+				<input name="next" type="hidden"></input>
+			</form>
+			{% endblock %}
+
+		</nav>
 	</div>
-	{% endblock %}
+
 
 </div>
 
 
-
-
 {% block mainContent %}
-
 {% endblock mainContent %}
 
-{% block bodyScripts %}
+{% block baseScripts %}
 	<script type="text/javascript" src="{% static 'personal_site/set_lang.js' %}"></script>
+	<script type="text/javascript" src="{% static 'showMenu.js' %}"></script>
+{% endblock baseScripts %}
+
+{% block bodyScripts %}
 {% endblock bodyScripts %}
+
 </body>
 
 </html>

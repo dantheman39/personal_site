@@ -3,6 +3,19 @@
 
 {% block mainContent %}
 <div class="contentRoot">
-Yo!
+
+<p>{% blocktrans %}I'm hoping to avoid spam to this email, so please forgive this obnoxious riddle to get my e-mail address if you don't already have it:{% endblocktrans %}</p>
+
+<ul id="emailRiddle">
+	<li>{% trans "The first name of the actor who played Harry Potter, not shortened" %}</li>
+	<li>{% trans "A period" %}</li>
+	<li>{% trans "My last name, which is composed of the first letter of these five words (so it has five letters): rick i got good shoes" %}</li>
+	<li>{% trans "The number one" %}</li>
+	<li>{% trans "That funny curvy \"a\" that goes in emails" %}</li>
+	<li>{% trans "Google's email service" %}</li>
+</ul>
+
+
+
 </div>
 {% endblock mainContent %}
