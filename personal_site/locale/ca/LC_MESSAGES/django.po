@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-23 21:51+0000\n"
+"POT-Creation-Date: 2018-05-30 20:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,40 +18,436 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: templates/personal_site/index.html:10
+#: templates/personal_site/base.html:32
+msgid "home"
+msgstr "inici"
+
+#: templates/personal_site/base.html:33
+msgid "contact"
+msgstr "contacte"
+
+#: templates/personal_site/contact.html:7
+msgid ""
+"I'm hoping to avoid spam to this email, so please forgive this obnoxious "
+"riddle to get my e-mail address if you don't already have it:"
+msgstr ""
+
+#: templates/personal_site/contact.html:10
+msgid "The first name of the actor who played Harry Potter, not shortened"
+msgstr ""
+
+#: templates/personal_site/contact.html:11
+msgid "A period"
+msgstr ""
+
+#: templates/personal_site/contact.html:12
+msgid ""
+"My last name, which is composed of the first letter of these five words (so "
+"it has five letters): rick i got good shoes"
+msgstr ""
+
+#: templates/personal_site/contact.html:13
+msgid "The number one"
+msgstr ""
+
+#: templates/personal_site/contact.html:14
+msgid "That funny curvy \\"
+msgstr ""
+
+#: templates/personal_site/contact.html:15
+msgid "Google's email service"
+msgstr ""
+
+#: templates/personal_site/index.html:9
+msgid ""
+"Hi! I'm Dan Riggs, and am just beginning a job search to go full-time into "
+"programming. I've been programming seriously for about five years to enhance "
+"my work as a linguist and musician, and also because I actually think it's a "
+"lot fun. As of early 2017 I've been back to making a living working in my "
+"original field, as a professional musician, but for a little over a decade "
+"and up until very recently I was in academia, studying and teaching Spanish, "
+"Portuguese, Linguistics and Spanish literature. Check out the sections below "
+"for more info if you're interested.\n"
+msgstr ""
+"Translation for Catalan working! Hola! Dins de poc traduiré aquest lloc.\n"
+
+#: templates/personal_site/index.html:13
 msgid "Programming"
 msgstr "Informàtica"
 
-#: templates/personal_site/index.html:11
-msgid "Music"
-msgstr "Música"
-
-#: templates/personal_site/index.html:12
+#: templates/personal_site/index.html:14
 msgid "Linguistics"
 msgstr "Lingüística"
 
-#: templates/personal_site/index.html:16
-msgid ""
-"Hi! It seems I've invited you to the party early. This site will be more "
-"presentable by the end of the week. Check out <a href=\"https://github.com/"
-"dantheman39\" target=\"_blank\">my github page</a> for a similar view of "
-"sparseness. I have been programming a lot over the past 5 years or so, but "
-"use a private git server so it's going to take time to make my code more "
-"presentable."
-msgstr ""
-"Hola! Sembla t'he convidat massa d'hora a la festa. Aquest lloc web será més "
-"bonic aquest cap de setmana. Entretant fa un cop d'ull a la meva <a href="
-"\"https://github.com/dantheman39\" target=\"_blank\">pàgina de GitHub</a>. "
-"He estat programant prou durant l'últims cinc anys, però he guardat tot a un "
-"servidor de git privat, doncs trigaré una mica en netejar tot i publicarlo "
-"al web."
+#: templates/personal_site/index.html:15
+msgid "Music"
+msgstr "Música"
 
-#: templates/personal_site/index.html:18
+#: templates/personal_site/index_linguistics.html:3
 msgid ""
-"Even though this site is not yet much to look at, I'm happy that it's all "
-"set up for i18n internationalization and and for unit testing, two areas I "
-"wanted to know more about, so there's that!"
+"\n"
+"I've always been fascinated by foreign languages, but never had the chance "
+"to really learn one, so after graduating from conservatory I decided to take "
+"my self-taught Spanish to the next level and moved to Guatemala to enroll in "
+"a Spanish immersion program, specifically at the <a href=\"plqe.org"
+"\">Proyecto lingüístico quetzalteco de español</a>. It was a wonderful, life-"
+"changing experience, and I learned Spanish well enough in the 5 months I was "
+"there that I was able to pass an entrance exam into the Master of Spanish "
+"program at The City College of New York."
 msgstr ""
-"Encara que no hi hagi res gaire impressionant aquí, estic content que "
-"l'internacionalització estigui funcionant, i que hagi après a utilitzar "
-"unittesting, que són dos temas que volia aprendre a manejar."
+
+#: templates/personal_site/index_linguistics.html:6
+msgid ""
+"\n"
+"While at CCNY I taught undergraduate Spanish classes as well as an "
+"introductory course in Latin American Literature. I also spent a summer in "
+"Brazil, fell in love with the language, the music and the people, and later "
+"began teaching Portuguese and Spanish in LaGuardia Community College. Since "
+"there's still a lot more fun to be had with Iberian languages, I also "
+"learned Catalan with the help of books and friends."
+msgstr ""
+
+#: templates/personal_site/index_linguistics.html:10
+msgid ""
+"\n"
+"After completing the Master's, I moved to Washington D.C. to begin a PhD "
+"program in Linguistics offered by the Spanish and Portuguese department. "
+"There I earned an MS in Spanish Linguistics, taught Spanish and Portuguese "
+"language classes, Spanish phonology, and published a couple of things "
+"(literally). My focus was on Phonology (the study of speech sounds and how "
+"our minds analyze speech sounds), Orthography (writing systems) and how "
+"these interact with Second Language Acquisition.\n"
+"\t"
+msgstr ""
+
+#: templates/personal_site/index_linguistics.html:15
+msgid "Education"
+msgstr ""
+
+#: templates/personal_site/index_linguistics.html:18
+msgid ""
+"Candidate for PhD in Spanish and Portuguese Linguistics, Georgetown "
+"University, End date: May 2018"
+msgstr ""
+
+#: templates/personal_site/index_linguistics.html:19
+msgid ""
+"MS in Spanish and Portuguese Linguistics, Georgetown University, May 2012"
+msgstr ""
+
+#: templates/personal_site/index_linguistics.html:20
+msgid "MA in Spanish, The City College of New York, May 2009"
+msgstr ""
+
+#: templates/personal_site/index_linguistics.html:23
+msgid "Languages"
+msgstr ""
+
+#: templates/personal_site/index_linguistics.html:26
+msgid ""
+"\n"
+"\t\t\t<li>English: native</li>\n"
+"\t\t\t<li>Portuguese: near-native</li>\n"
+"\t\t\t<li>Spanish: near-native</li>\n"
+"\t\t\t<li>Catalan: highly advanced</li>\n"
+"\t\t\t<li>Italian: rusty, was advanced</li>\n"
+"\t\t\t<li>French: rusty, was advanced</li>\n"
+"\t\t\t<li>Mandarin Chinese: rusty, was intermediate</li>\n"
+"\t\t"
+msgstr ""
+
+#: templates/personal_site/index_linguistics.html:37
+msgid "Teaching"
+msgstr ""
+
+#: templates/personal_site/index_linguistics.html:42
+msgid ""
+"\n"
+"\t\t\t\t<li>Linguistics: Spanish Phonetics and Phonology</li>\n"
+"\t\t\t\t<li>Portuguese language: Portuguese for Spanish Speakers, Intensive "
+"Basic and Intensive Intermediate Portuguese</li>\n"
+"\t\t\t\t<li>Spanish language: Beginner, Intermediate and Advanced levels</"
+"li>\n"
+"\t\t\t"
+msgstr ""
+
+#: templates/personal_site/index_linguistics.html:52
+msgid ""
+"\n"
+"\t\t\t\t<li>Survey of Latin American Literature</li>\n"
+"\t\t\t\t<li>Spanish language: Beginner and Intermediate levels</li>\n"
+"\t\t\t"
+msgstr ""
+
+#: templates/personal_site/index_linguistics.html:61
+msgid ""
+"\n"
+"\t\t\t\t<li>Portuguese: Portuguese for Spanish Speakers, Portuguese I</li>\n"
+"\t\t\t\t<li>Spanish: Spanish I</li>\n"
+"\t\t\t"
+msgstr ""
+
+#: templates/personal_site/index_linguistics.html:68
+msgid "Publications"
+msgstr ""
+
+#: templates/personal_site/index_linguistics.html:77
+msgid "Presentations"
+msgstr ""
+
+#: templates/personal_site/index_music.html:5
+msgid ""
+"\n"
+"I currently make my living as a freelance musician, playing percussion, "
+"accordion, guitar, bass and keyboards in various genres, mostly in musical "
+"theater, popular and traditional South American styles, and as a church "
+"musician.\n"
+"\t\t"
+msgstr ""
+
+#: templates/personal_site/index_music.html:10
+msgid "Training"
+msgstr ""
+
+#: templates/personal_site/index_music.html:12
+msgid ""
+"\n"
+"I grew up in a family of musicians. My father, a percussionist and my mother "
+"a violist, met at Eastman School of Music, and forced us to learn piano from "
+"a young age, and my siblings and I all participated in choirs and musical "
+"theater. I began playing percussion professionally in orchestras and jazz "
+"groups in the Detroit area starting at the age of 15. Yay nepotism! (But I "
+"<em>was</em> also really good at it, and my parents didn't ever get me a "
+"jazz or rock gig &hellip; )\n"
+"\t\t"
+msgstr ""
+
+#: templates/personal_site/index_music.html:17
+msgid ""
+"\n"
+"I earned a Bachelor of Music in Percussion at Manhattan School of Music, one "
+"of the world's top conservatories, studying with Chris Lamb, principal "
+"percussionist of the New York Philharmonic; Duncan Patton, co-chair of "
+"timpani of the Metropolitan Opera; and Jim Preiss, renowned New York "
+"freelancer. I also had the opportunity to study in St. Louis with Rick "
+"Holmes, timpanist of the St. Louis Philharmonic.\n"
+"\t\t"
+msgstr ""
+
+#: templates/personal_site/index_music.html:22
+msgid ""
+"\n"
+"I began a Master in Percussion at Boston Conservatory to study with Pat "
+"Hollenbeck, Nancy Zeltsman, Sal Rabbio and Keith Aleo, but when on the first "
+"day of class the head of the percussion department was fired and several "
+"other key faculty quit in protest, after finishing out the semester I "
+"decided to move to Guatemala to fulfill a lifelong dream of spending time "
+"abroad and learning a new language.\n"
+"\t\t"
+msgstr ""
+
+#: templates/personal_site/index_music.html:27
+msgid "Brazilian and Hispanic Music"
+msgstr ""
+
+#: templates/personal_site/index_music.html:29
+msgid ""
+"\n"
+"During the years that followed of studying and teaching Spanish, Portuguese, "
+"literature and linguistics, I developed a passion for South American music, "
+"especially Brazilian. I found myself learning accordion to play Forró and "
+"Vallenato since there are so few accordionists in the area, and have spent "
+"years singing and playing percussion, accordion and guitar with Brazilan and "
+"Andean groups in the DC area. I currently perform regularly with Rebuliço, a "
+"Brazilian party band, and am the band leader of <a href=\"https://www."
+"facebook.com/LaChichadetuMadre/\" target=\"_blank\">La chicha de tu madre</"
+"a>, a group that plays a genre of psychodelic cumbia from Peru called "
+"Chicha.\n"
+"\t\t"
+msgstr ""
+
+#: templates/personal_site/index_music.html:34
+msgid "Musical theater"
+msgstr ""
+
+#: templates/personal_site/index_music.html:36
+msgid ""
+"\n"
+"In addition to playing South American music, I still play plenty of "
+"\"straight\" gigs, mostly musical theater in DC. I've been hired to play at "
+"Arena Stage, The Keegan Theatre, GALA, Constellation Theatre, Levine, and "
+"others as a percussionist (and occasional bassist).\n"
+"\t\t"
+msgstr ""
+
+#: templates/personal_site/index_music.html:41
+msgid ""
+"\n"
+"In 2017 I was offered a regular staff position as worship leader of English "
+"and Spanish contemporary worhip by the wonderful people at Messiah United "
+"Methodist Church in Springfield, VA, where I sing, play guitar and "
+"keyboards, and help direct the Youth Band ministry.\n"
+"\t\t"
+msgstr ""
+
+#: templates/personal_site/index_programming.html:5
+msgid ""
+"If I had to categorize the type of programming I'm most comfortable with, I "
+"would say that I'm a full-stack web programmer, having built several web "
+"apps from the ground up that have been used successfully in data collection "
+"for a few years. But beyond the web I have applied my programming skills to "
+"multiple challenges: creating desktop applications for my language students, "
+"or for psycholinguistic and phonological experiments; running statistical "
+"analyses and creating visualizations of data; or just writing the odd bash "
+"or python program when faced with a repetitive task, because I always come "
+"out of it learning something new."
+msgstr ""
+
+#: templates/personal_site/index_programming.html:7
+msgid ""
+"I strive to write programs that are stable and reliable, that play very "
+"nicely with the end-user, and that are designed with the future in mind (in "
+"terms of extensibility or in anticipating errors). Though Python has been my "
+"workhorse, it's not the only tool in my shed, and now that I'm going to be "
+"able to focus on programming I'm excited to acquire more skills and deepen "
+"those I already have."
+msgstr ""
+
+#: templates/personal_site/index_programming.html:16
+msgid "Can-do's and have-done's"
+msgstr ""
+
+#: templates/personal_site/index_programming.html:18
+msgid ""
+"Over the next few weeks, I will gradually be cleaning up some of the code "
+"from projects I've worked on in the past and will post demos here and to <a "
+"href=\"https://github.com/dantheman39\" target=\"_blank\">my github page</"
+"a>. At time of writing my GitHub is still a little sparse, I've been using a "
+"personal git server for version tracking up to this point. But here is a "
+"simple list that gives an overview of the type of work I've done:"
+msgstr ""
+
+#: templates/personal_site/index_programming.html:21
+msgid ""
+"I program regularly in Python, it's the language I've used the most and am "
+"most comfortable with."
+msgstr ""
+
+#: templates/personal_site/index_programming.html:23
+msgid ""
+"I have written and maintain multiple websites and web apps with the Django "
+"framework."
+msgstr ""
+
+#: templates/personal_site/index_programming.html:25
+msgid ""
+"Using and expanding on the amazing python library and application PsychoPy, "
+"I created a complex Vocabulary Trainer application for data collection in my "
+"thesis research. The program displayed images, played and recorded audio, "
+"graded and provided visual feedback for user input, used "
+"internationalization, allowed users to draw with a mouse, and used an "
+"algorithm that would vary presentation order depending on users' responses. "
+"I've contributed to PsychoPy's code, and have invested considerable time on "
+"the forums helping users with less technical experience."
+msgstr ""
+
+#: templates/personal_site/index_programming.html:27
+msgid ""
+"I am comfortable using JavaScript, and am always uncomfortable with how much "
+"more I have to learn about using it wisely. It seems that many programmers "
+"use JavaScript only because they are forced to, and that they don't take "
+"much interest in learning it well. I take the language seriously and want to "
+"learn it well. Crockford's <em>JavaScript, the Good Parts</em> is a book "
+"that is currently leading me to more thoughtful exploration of JavaScript."
+msgstr ""
+
+#: templates/personal_site/index_programming.html:29
+msgid ""
+"I successfully built a complex website for a client using a language and "
+"framework I had previously had no experience with: A colleague and I were "
+"hired as linguistic consultants by Missouri State University to create a "
+"placement test for their Spanish program. Part of my job was to create a "
+"website for them to administer the test and manage results. The university "
+"uses all Microsoft services and their programmers were unfamiliar with "
+"Django, so in order to facilitate their maintenance of the app I learned C# "
+"and ASP.NET MVC."
+msgstr ""
+
+#: templates/personal_site/index_programming.html:31
+msgid ""
+"SQL and data models: Usually in my projects SQLite has been sufficient, but "
+"I have also worked with MySQL and MSSQL. I've also worked with more abstract "
+"data model layers in Django and in ASP.NET."
+msgstr ""
+
+#: templates/personal_site/index_programming.html:33
+msgid ""
+"I built and maintain a home server, where I host most of my websites, and do "
+"some file, git and music serving."
+msgstr ""
+
+#: templates/personal_site/index_programming.html:35
+msgid ""
+"Ubuntu is my daily driver, and I am very comfortable on a Mac. I've used "
+"Windows plently, but have a lot to learn about its guts."
+msgstr ""
+
+#: templates/personal_site/index_programming.html:37
+msgid ""
+"Git is part of my regular workflow. I've been pushing to my home server "
+"instead of GitHub, but in the coming weeks I'll be cleaning up some more "
+"code and putting it on GitHub so it can be viewed by others."
+msgstr ""
+
+#: templates/personal_site/index_programming.html:39
+msgid ""
+"For data analysis and presentation, R and the fantastic ggplot2 package are "
+"my programs of choice."
+msgstr ""
+
+#: templates/personal_site/index_programming.html:41
+msgid ""
+"LaTeX made working on my thesis and other project write-ups simultaneously "
+"more fun and more infuriating."
+msgstr ""
+
+#: templates/personal_site/index_programming.html:43
+msgid ""
+"I'm a big fan of the Vim editor and it's gestural approach to moving around "
+"a file."
+msgstr ""
+
+#: templates/personal_site/index_programming.html:45
+msgid "I've built some small desktop applications using PyQt."
+msgstr ""
+
+#: templates/personal_site/index_programming.html:46
+msgid ""
+"I've written a <a href=\"http://praatscriptingtutorial.com\" target=\"_blank"
+"\">tutorial on the Praat scripting language</a> intended for other linguists "
+"with no programming experience."
+msgstr ""
+
+#~ msgid ""
+#~ "Hi! It seems I've invited you to the party early. This site will be more "
+#~ "presentable by the end of the week. Check out <a href=\"https://github."
+#~ "com/dantheman39\" target=\"_blank\">my github page</a> for a similar view "
+#~ "of sparseness. I have been programming a lot over the past 5 years or so, "
+#~ "but use a private git server so it's going to take time to make my code "
+#~ "more presentable."
+#~ msgstr ""
+#~ "Hola! Sembla t'he convidat massa d'hora a la festa. Aquest lloc web será "
+#~ "més bonic aquest cap de setmana. Entretant fa un cop d'ull a la meva <a "
+#~ "href=\"https://github.com/dantheman39\" target=\"_blank\">pàgina de "
+#~ "GitHub</a>. He estat programant prou durant l'últims cinc anys, però he "
+#~ "guardat tot a un servidor de git privat, doncs trigaré una mica en "
+#~ "netejar tot i publicarlo al web."
+
+#~ msgid ""
+#~ "Even though this site is not yet much to look at, I'm happy that it's all "
+#~ "set up for i18n internationalization and and for unit testing, two areas "
+#~ "I wanted to know more about, so there's that!"
+#~ msgstr ""
+#~ "Encara que no hi hagi res gaire impressionant aquí, estic content que "
+#~ "l'internacionalització estigui funcionant, i que hagi après a utilitzar "
+#~ "unittesting, que són dos temas que volia aprendre a manejar."
