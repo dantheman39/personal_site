@@ -27,7 +27,7 @@ class UrlTests(TestCase):
 			# Currently not providing the "next" value to the form, 
 			# because Django will return a 302 redirecting to the 
 			# current page. Adding "follow" argument to follow this
-			# redirect
+			# redirect.
 			response = self.client.post(reverse("set_language"), 
 									{"language": langCode}, follow=True)
 			self.assertEqual(response.status_code, 200)
