@@ -27,4 +27,5 @@ urlpatterns = [
 urlpatterns += i18n_patterns(
     url(r'^admin/', admin.site.urls),
 	url(r'^$', ps_views.home, name="home"),
+	url(r'^contact', ps_views.contact, name="contact"),
 )

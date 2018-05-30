@@ -19,11 +19,15 @@
 
 <div id="headline">
 
-	<h1 id="headerH1">Daniel Riggs</h1>
+	<h1 id="headerH1"><a href="{% url "home" %}">Daniel Riggs</a></h1>
+
+	<div id="contact" class="rightBlock2">
+		<a href="{% url "contact" %}">Contact</a>
+	</div>
 
 	{% block changeLangBlock %}
 	<div id="chooseLangDiv">
-	<form id="chooseLangForm" action="{% url 'set_language' %}" method="post">{% csrf_token %}
+	<form id="chooseLangForm" action="{% url 'set_language' %}" method="post" class="rightBlock">{% csrf_token %}
 
 		{% get_available_languages as LANGUAGES %}
 		{% get_current_language as LANGUAGE_CODE %}
@@ -42,6 +46,7 @@
 	{% endblock %}
 
 </div>
+
 
 
 

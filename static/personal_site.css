@@ -14,14 +14,14 @@ body {
 	padding-bottom: 50px;
 }
 
-article {
+.contentRoot {
 	max-width: 600px;
 	padding-left: 3%;
 	padding-right: 3%;
 	padding-top: 30px;
 }
 
-article p {
+.contentRoot p {
 	padding-top: 0.25em;
 	padding-bottom: 0.25em;
 }
